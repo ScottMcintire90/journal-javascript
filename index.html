@@ -3,15 +3,17 @@
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
+    <link rel="stylesheet" href="resources/app.css">
+
     <title>Journal</title>
   </head>
   <body>
-    <h1>Journal Time!</h1>
+    <h1 class="header">Journal Time!</h1>
     <form id="journal">
       <label for="journalTitle">Title: </label>
       <input type="text" id="journalTitle" name="journalTitle">
       <label for="journalEntry">Body: </label>
-      <input type="text" id="journalEntry" name="journalEntry">
+      <textarea id="journalEntry" name="journalEntry" placeholder="Write an entry..."></textarea>
 
       <button type="submit" name="button">Add Entry</button>
     </form>

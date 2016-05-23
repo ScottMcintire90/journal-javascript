@@ -1,0 +1,28 @@
+body {
+  background: url("img/background.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 20px;
+}
+
+.header {
+  padding-top: 30px;
+  padding-left: 300px;
+}
+
+#journal {
+  padding-left: 140px;
+  font-size: 20px;
+}
+
+textarea {
+  width: 300px;
+  height: 75px;
+}
+
+#results {
+  padding-left: 190px;
+  margin-right: 740px;
+}
